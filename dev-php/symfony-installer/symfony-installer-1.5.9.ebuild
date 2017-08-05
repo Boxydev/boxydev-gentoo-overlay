@@ -3,23 +3,23 @@
 
 EAPI=6
 
-DESCRIPTION="Dependency Manager for PHP."
-HOMEPAGE="https://getcomposer.org/"
-SRC_URI="https://getcomposer.org/download/${PV}/${PN}.phar"
+DESCRIPTION="The Symfony Installer."
+HOMEPAGE="https://symfony.com/doc/current/setup.html"
+SRC_URI="https://symfony.com/installer"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-iIUSE=""
+IUSE=""
 
 DEPEND="dev-lang/php:*"
 RDEPEND="${DEPEND}"
 
 src_unpack() {
-	mkdir -p  "${S}"
-	cp -L "${DISTDIR}/${A}" "${S}/${PN}"
+	mkdir -p "${S}"
+	cp -L "${DISTDIR}/${A}" "${S}/symfony"
 }
 
 src_install() {
-	dobin "${PN}"
+	dobin "symfony"
 }
