@@ -15,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="sys-process/parallel
-		dev-lang/sassc
-		media-gfx/inkscape"
+	dev-lang/sassc
+	media-gfx/inkscape"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
