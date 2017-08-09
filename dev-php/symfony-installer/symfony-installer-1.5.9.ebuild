@@ -3,7 +3,7 @@
 
 EAPI=6
 
-DESCRIPTION="The Symfony Installer."
+DESCRIPTION="The Symfony Installer"
 HOMEPAGE="https://symfony.com/doc/current/setup.html"
 SRC_URI="https://symfony.com/installer -> symfony-installer"
 
@@ -12,7 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-lang/php:*"
+DEPEND="dev-lang/php"
 RDEPEND="${DEPEND}"
 
 src_unpack() {

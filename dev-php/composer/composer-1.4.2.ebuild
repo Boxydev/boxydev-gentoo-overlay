@@ -3,7 +3,7 @@
 
 EAPI=6
 
-DESCRIPTION="Dependency Manager for PHP."
+DESCRIPTION="Dependency Manager for PHP"
 HOMEPAGE="https://getcomposer.org/"
 SRC_URI="https://getcomposer.org/download/${PV}/${PN}.phar -> ${P}.phar"
 
@@ -12,11 +12,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 iIUSE=""
 
-DEPEND="dev-lang/php:*"
+DEPEND="dev-lang/php"
 RDEPEND="${DEPEND}"
 
 src_unpack() {
-	mkdir -p  "${S}"
+	mkdir -p "${S}"
 	cp -L "${DISTDIR}/${A}" "${S}/${PN}"
 }
 
