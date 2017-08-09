@@ -26,5 +26,5 @@ src_prepare() {
 
 src_configure() {
 	gnome2_src_configure \
-			--disable-gnome
+		--disable-gnome
 }
