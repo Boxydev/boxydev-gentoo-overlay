@@ -5,7 +5,7 @@ EAPI=6
 
 DESCRIPTION="The Symfony Installer."
 HOMEPAGE="https://symfony.com/doc/current/setup.html"
-SRC_URI="https://symfony.com/installer"
+SRC_URI="https://symfony.com/installer -> symfony-installer"
 
 LICENSE="MIT"
 SLOT="0"

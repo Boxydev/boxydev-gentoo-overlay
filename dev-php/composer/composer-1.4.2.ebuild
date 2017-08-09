@@ -5,7 +5,7 @@ EAPI=6
 
 DESCRIPTION="Dependency Manager for PHP."
 HOMEPAGE="https://getcomposer.org/"
-SRC_URI="https://getcomposer.org/download/${PV}/${PN}.phar"
+SRC_URI="https://getcomposer.org/download/${PV}/${PN}.phar -> ${P}.phar"
 
 LICENSE="MIT"
 SLOT="0"
