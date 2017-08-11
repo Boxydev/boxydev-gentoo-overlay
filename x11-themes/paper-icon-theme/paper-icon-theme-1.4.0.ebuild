@@ -5,7 +5,7 @@ EAPI=6
 
 DESCRIPTION="Paper Icons"
 HOMEPAGE="https://snwh.org/paper"
-SRC_URI="https://github.com/snwh/${PN}/archive/v${PV}.tar.gz"
+SRC_URI="https://github.com/snwh/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="CC-BY-SA-4.0"
 SLOT="0"
