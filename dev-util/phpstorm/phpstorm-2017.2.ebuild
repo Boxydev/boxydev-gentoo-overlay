@@ -24,8 +24,8 @@ src_install() {
     doins -r *
 
     fperms a+x /opt/${PN}/bin/phpstorm.sh
-	fperms a+x /opt/${PN}/bin/fsnotifier64
-	fperms a+x /opt/${PN}/jre64/bin/*
+    fperms a+x /opt/${PN}/bin/fsnotifier64
+    fperms a+x /opt/${PN}/jre64/bin/*
     dosym /opt/${PN}/bin/phpstorm.sh /usr/bin/${PN}
 
     doicon "bin/${PN}.png"
