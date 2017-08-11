@@ -9,7 +9,7 @@ SRC_URI="https://getcomposer.org/download/${PV}/${PN}.phar -> ${P}.phar"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 iIUSE=""
 
 DEPEND="dev-lang/php"

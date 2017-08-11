@@ -9,7 +9,7 @@ SRC_URI="https://symfony.com/installer -> symfony-installer"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-lang/php"
