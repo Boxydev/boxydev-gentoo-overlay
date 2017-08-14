@@ -37,6 +37,5 @@ pkg_postinst() {
 }
 
 pkg_prerm() {
-    [[ -d "${ROOT}/opt/${PN/jd/JD}" ]] && rm -rf "${ROOT}/opt/${PN/jd/JD}" && mkdir "${ROOT}/opt/${PN/jd/JD}" && touch "${ROOT}/opt/${PN/jd/JD}/${PN/jd/JD}.jar" 
-
+    [[ -d "${ROOT}/opt/${PN/jd/JD}" ]] && rm -rf "${ROOT}/opt/${PN/jd/JD}" && mkdir "${ROOT}/opt/${PN/jd/JD}" && touch "${ROOT}/opt/${PN/jd/JD}/${PN/jd/JD}.jar"
 }
