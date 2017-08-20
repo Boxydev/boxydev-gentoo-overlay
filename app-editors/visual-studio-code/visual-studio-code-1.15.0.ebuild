@@ -11,7 +11,7 @@ SRC_URI="https://vscode-update.azurewebsites.net/${PV}/linux-x64/stable -> ${P}.
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND=""
