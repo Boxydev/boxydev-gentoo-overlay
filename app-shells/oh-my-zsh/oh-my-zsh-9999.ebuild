@@ -29,7 +29,6 @@ src_install() {
     doins -r *
 }
 
-pkg_postinst()
-{
+pkg_postinst() {
     elog "You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it."
 }
