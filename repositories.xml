@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[boxydev-overlay]]></name>
+    <description><![CDATA[Boxydev Overlay]]></description>
+    <homepage>https://github.com/Boxydev/boxydev-gentoo-overlay</homepage>
+    <owner>
+      <email>matthieu@boxydev.com</email>
+      <name><![CDATA[Matthieu Mota]]></name>
+    </owner>
+    <source type="git">git://github.com/Boxydev/boxydev-gentoo-overlay.git</source>
+  </repo>
+</repositories>
