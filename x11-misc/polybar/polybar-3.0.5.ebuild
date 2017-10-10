@@ -15,7 +15,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="x86 amd64"
 
-IUSE="alsa i3wm mpd github +network"
+IUSE="alsa +i3wm mpd github +network"
 RDEPEND="
 	x11-libs/libxcb
 	dev-lang/python:2.7
