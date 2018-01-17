@@ -16,7 +16,8 @@ KEYWORDS="amd64"
 IUSE=""
 
 DEPEND="x11-libs/gtk+
-	x11-themes/gnome-icon-theme"
+        x11-themes/gnome-icon-theme
+        x11-themes/gtk-engines-murrine"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
