@@ -27,4 +27,5 @@ src_install() {
 	fperms +x "/opt/${PN}/bin/code"
 	insinto "/usr/share/licenses/${PN}"
 	newins "resources/app/LICENSE.txt" "LICENSE"
+	newicon "resources/app/resources/linux/code.png" "${PN}.png"
 }
