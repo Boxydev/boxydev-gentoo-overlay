@@ -25,7 +25,7 @@ SLOT="0"
 IUSE=""
 
 LIBDEPEND=">=x11-libs/gtk+-3.0
-	>=x11-libs/vte-0.43.2:2.91[termite-patch(-)]
+	>=x11-libs/vte-0.48.4:2.91
 	"
 DEPEND="${LIBDEPEND}"
 RDEPEND="${LIBDEPEND}"
