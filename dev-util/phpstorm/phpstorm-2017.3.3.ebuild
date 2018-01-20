@@ -27,7 +27,10 @@ src_install() {
     fperms a+x /opt/${PN}/bin/fsnotifier
     fperms a+x /opt/${PN}/bin/fsnotifier64
     fperms a+x /opt/${PN}/bin/fsnotifier-arm
-    fperms a+x /opt/${PN}/jre64/bin/*
+    for i in $(ls ${D}/opt/${PN}/jre64/bin/)
+        do
+            fperms a+x /opt/${PN}/jre64/bin/${i}
+        done;
     dosym /opt/${PN}/bin/phpstorm.sh /usr/bin/${PN}
 
     doicon "bin/${PN}.png"
